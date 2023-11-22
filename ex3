@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+//Faça um Programa que peça dois números e imprima a soma.
+
+class Main {
+  public static void main(String[] args) {
+
+   int n1,n2, resultado; 
+    Scanner entrada = new Scanner(System.in);
+
+    System.out.println("digite um numero: "); 
+
+    n1 = entrada.nextInt();
+
+    System.out.println("digite um segundo numero: ");
+
+    n2 = entrada.nextInt(); 
+
+    resultado = n1 + n2; 
+
+    System.out.println("o resultado é: " + resultado);
+    
+  }
+}
